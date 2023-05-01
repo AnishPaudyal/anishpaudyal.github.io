@@ -1,0 +1,160 @@
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Inter', sans-serif;
+    background-image: url(blue.avif);
+    background-position: center;
+    background-size: cover;   
+}
+@media only screen and (min-width:768px){
+.container{
+    max-width: 100%!important;
+}
+}
+.container{
+    margin-top: 30px;   
+}
+.container a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container a:hover{
+    color: #0840EF;
+}
+.btn-primary{
+    border: none!important;
+    border-radius: 50px!important;
+    background: #1C378A!important;
+}
+.btn-primary:hover{
+    font-weight: bold;
+}
+.btn-success{  
+    position: absolute;
+    left: 200px;
+    border: none!important;
+    border-radius: 30px!important;
+    background: #1C378A!important;
+}
+.btn-success:hover{
+    font-weight: bold;
+}
+#home{
+    justify-content: center;
+}
+
+.row{
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.row p{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+.row span{
+    font-size: 40px;
+    color: #0840EF;
+    font-weight: bold;
+}
+h2{
+    color: lightblue;
+    font-size: 25px!important;
+    font-weight: bold;
+}
+img{
+    width: 550px;
+    height: 350px;
+}
+.col-sm-7 p{
+    font-size: 30px;
+}
+.col-sm-7 span{
+    font-size: 30px;
+}
+.col-sm-5{
+    height: 400px;
+    width: 600px;
+    animation: ani 10s linear infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@keyframes ani{
+    0%,100%{
+        background-image: url(pr1.png);
+    }
+    40%{
+        background-image: url(imag.jpg);
+    }
+    80%{
+        background-image: url(pr3.png);
+    }
+}
+#one{
+    font-size: 16px;
+}
+.anim{
+    height: 300px;
+    width: 600px;
+    margin-left: 400px;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@keyframes animate{
+    0%,100%{
+    background-image: url(languages-.png);
+    }
+    25%{
+        background-image: url(frameworks.png);
+    }
+    50%{
+        background-image: url(tools-.png);
+    }
+    75%{
+        background-image: url(database.png);
+    }
+}
+#two{
+    font-size: 18px;
+}
+#about{
+    font-size: 26px;
+    font-weight: 500px;
+}
+#footer{
+    
+    text-align: center;
+}
+
+#footer p{
+    font-size: 22px;    
+}
+#icon{
+    justify-content: center;    
+}
+#footer i{
+    font-size: 30px;
+    
+      
+}
+#qualifications .col{
+    margin-left: 30%;
+    margin-bottom: 80px;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 500px;
+    border: 1px solid lightblue;
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px lightblue; 
+    
+}
+#qualifications .col  p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px; 
+}
+
